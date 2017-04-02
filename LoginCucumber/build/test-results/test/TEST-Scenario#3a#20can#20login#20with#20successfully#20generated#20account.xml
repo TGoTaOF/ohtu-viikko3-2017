@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: can login with successfully generated account" tests="5" skipped="4" failures="0" errors="0" timestamp="2017-04-02T17:37:00" hostname="dhcp-asv-125" time="0.006">
+  <properties/>
+  <testcase name="Given user &quot;eero&quot; with password &quot;salainen1&quot; is created" classname="Scenario: can login with successfully generated account" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And command login is selected" classname="Scenario: can login with successfully generated account" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="When username &quot;eero&quot; and password &quot;salainen1&quot; are entered" classname="Scenario: can login with successfully generated account" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase name="Then System will respond with &quot;logged in&quot;" classname="Scenario: can login with successfully generated account" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: can login with successfully generated account" time="0.006"/>
+  <system-out><![CDATA[
+  Scenario: creation fails with already taken username and valid password ?[90m# ohtu/new_user.feature:23?[0m
+    ?[33mGiven ?[0m?[33mcommand new user is selected?[0m
+    ?[36mWhen ?[0m?[36musername "?[0m?[36m?[1mpekka?[0m?[36m" and password "?[0m?[36m?[1maaaaaaa1?[0m?[36m" are entered?[0m             ?[90m# Stepdefs.a_username_and_password_are_entered(String,String)?[0m
+    ?[36mThen ?[0m?[36msystem will respond with "?[0m?[36m?[1mnew user not registered?[0m?[36m"?[0m               ?[90m# Stepdefs.system_will_respond_with(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
